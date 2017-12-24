@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="blacksmith.sullivanway.display.StnInfoFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/basicContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/stn_info_margin"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_chevron_right_black_24dp"
+                android:text="@string/stn_info_basic"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_margin="@dimen/stn_info_margin">
+                <TextView
+                    android:id="@+id/toilet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:drawableStart="@drawable/ic_toilet" />
+                <TextView
+                    android:id="@+id/door"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:drawableStart="@drawable/ic_door" />
+                <TextView
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:drawableStart="@drawable/ic_contact" />
+            </TableRow>
+            <TableRow
+                android:layout_margin="@dimen/stn_info_margin">
+                <TextView
+                    android:id="@+id/elevator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:drawableStart="@drawable/ic_elevator" />
+                <TextView
+                    android:id="@+id/escalator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:drawableStart="@drawable/ic_escalator" />
+                <TextView
+                    android:id="@+id/wheelChairLift"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:drawableStart="@drawable/ic_wheelchair_lift" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/mapContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/stn_info_margin"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_chevron_right_black_24dp"
+                android:text="@string/stn_info_map"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:id="@+id/mapContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/stn_info_padding"
+                android:paddingEnd="@dimen/stn_info_padding"
+                android:paddingStart="@dimen/stn_info_padding" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/etcContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/stn_info_margin"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/etcTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_chevron_right_black_24dp"
+                android:text="@string/stn_info_etc"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/timetableBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/stn_info_padding"
+                android:text="@string/stn_info_timetable"
+                android:textSize="20sp"
+                android:layout_below="@id/etcTitle"
+                android:layout_alignParentBottom="true" />
+
+            <TextView
+                android:id="@+id/cngstnBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/stn_info_padding"
+                android:text="@string/stn_info_cngst"
+                android:textSize="20sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@id/timetableBtn"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

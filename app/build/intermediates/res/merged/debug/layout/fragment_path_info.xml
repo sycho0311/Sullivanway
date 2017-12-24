@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="blacksmith.sullivanway.display.PathInfoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/total_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/path_info_padding"
+            android:paddingEnd="@dimen/path_info_padding"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/trans_cnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/path_info_padding"
+            android:paddingEnd="@dimen/path_info_padding"
+            android:textSize="24sp"
+            android:layout_below="@id/total_time"/>
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/path_info_padding"
+            android:paddingEnd="@dimen/path_info_padding"
+            android:textSize="24sp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/path_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:padding="@dimen/path_info_padding" />
+</LinearLayout>

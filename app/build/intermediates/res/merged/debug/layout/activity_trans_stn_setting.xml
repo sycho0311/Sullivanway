@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="blacksmith.sullivanway.display.TransStnSettingActivity">
+
+    <ListView
+        android:id="@+id/transStnListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/trans_stn_setting_margin"
+        android:layout_above="@+id/cntView"/>
+
+    <TextView
+        android:id="@id/cntView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/trans_stn_setting_margin"
+        android:layout_above="@+id/applyBtn"
+        android:padding="@dimen/trans_stn_setting_padding"
+        android:textSize="@dimen/trans_stn_setting_btn_text_size"/>
+
+    <TextView
+        android:id="@id/applyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/trans_stn_setting_margin"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/trans_stn_setting_padding"
+        android:gravity="center"
+        android:background="@color/trans_stn_btn_bg"
+        android:text="@string/trans_stn_setting_apply"
+        android:textSize="@dimen/trans_stn_setting_btn_text_size"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

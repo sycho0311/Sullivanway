@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/timetable_item_padding"
+    android:paddingBottom="@dimen/timetable_item_padding">
+
+    <TextView
+        android:id="@+id/upTimeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        android:textSize="@dimen/timetable_text_small_size"/>
+
+    <TextView
+        android:id="@+id/upStnNmView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/timetable_text_small_size"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"/>
+
+    <TextView
+        android:id="@+id/downTimeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:textSize="@dimen/timetable_text_small_size"/>
+
+    <TextView
+        android:id="@+id/downStnNmView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/timetable_text_small_size"/>
+
+</LinearLayout>

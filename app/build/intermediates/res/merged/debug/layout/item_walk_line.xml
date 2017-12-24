@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/stn_info_margin"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:text="@string/stn_info_ev_info"
+            android:textSize="@dimen/path_info_text_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/startNearEvLocationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/path_info_text_size"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/path_info_margin">
+        <ImageView
+            android:id="@+id/walkImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_man" />
+        <TextView
+            android:id="@+id/remainWalkTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/path_info_walk_padding"
+            android:paddingEnd="@dimen/path_info_walk_padding"
+            android:text="@string/remain_walk_time"
+            android:textSize="@dimen/path_info_text_size"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/walkImage" />
+        <ImageView
+            android:id="@+id/transMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/stn_info_margin"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:text="@string/stn_info_ev_info"
+            android:textSize="@dimen/path_info_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/endNearEvLocationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/path_info_text_size"/>
+
+    </LinearLayout>
+
+</LinearLayout>

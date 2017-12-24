@@ -1,0 +1,371 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:2:1-95:12
+	package
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\sycho\.android\build-cache\37d3b35a237b5793523f3f3bae224240b88d6ca6\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:14:22-73
+application
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:16:5-93:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\sycho\.android\build-cache\0905159d6d719d0803f3740b25481a4bbe4f4a7e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sycho\.android\build-cache\7ce3f6190d701b11182bef8f056e9d46ad5d55ae\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sycho\.android\build-cache\f4adc0493d2218cd82cfbcef27e9db5e5c51eba1\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sycho\.android\build-cache\bfec8eedea534acc1e8e13271063fa8db44580d0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\sycho\.android\build-cache\deee5f563b43165de4d6ddc10169bc09d4cf1b6c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.naver.maps.open:naver-map-api:2.1.2] C:\Users\sycho\.android\build-cache\30fb5658818a54571acea7a24d016f772d88dd99\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\sycho\.android\build-cache\32b506b3886995df4c7c617bf467122685f82368\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sycho\.android\build-cache\748630afb10692229f465f8268ad0e01df66c7fb\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\sycho\.android\build-cache\5b08ac1b368956dfb38bf778b7cf766cc1d5b8f1\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\sycho\.android\build-cache\37d3b35a237b5793523f3f3bae224240b88d6ca6\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\sycho\.android\build-cache\08518f1b7825a5d86e213c29d9df938f3cfcfe62\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\sycho\.android\build-cache\985081a9882a1c914b42d3207bd82bed8a83e728\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\sycho\.android\build-cache\aa0cca4e79f27ff8af4c749f0f0fe100d3474ac0\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sycho\.android\build-cache\b3c9f1c67402516b749439327c158fc417eb25c6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sycho\.android\build-cache\ac5daa0753bc2157cd4b4995643a265ec9ed9074\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sycho\.android\build-cache\852e107a2edede5cf8bff491e6ba2b26b1037f83\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sycho\.android\build-cache\08f7a550be819621edfa33541436799a92e0658a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sycho\.android\build-cache\f4ee32d8148e08cc92f0b2807a07b577e1c9c593\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sycho\.android\build-cache\08d6d3dfecc68f6dc1b91cf7a12d19d63bf378e1\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:20:9-41
+	android:supportsRtl
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:23:9-35
+	android:hardwareAccelerated
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:18:9-44
+	android:roundIcon
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:22:9-63
+	android:allowBackup
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:19:9-52
+	android:largeHeap
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:21:9-33
+	android:theme
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:24:9-52
+activity#blacksmith.sullivanway.MainActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:25:9-34:20
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:27:13-49
+	android:theme
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:26:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:32:27-74
+activity#blacksmith.sullivanway.display.StnInfoActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:35:9-38:52
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:38:13-49
+	android:parentActivityName
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:37:13-55
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:36:13-52
+activity#blacksmith.sullivanway.display.StnInfoMapActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:39:9-42:52
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:42:13-49
+	android:parentActivityName
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:41:13-66
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:40:13-55
+activity#blacksmith.sullivanway.display.PathInfoActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:43:9-46:52
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:46:13-49
+	android:parentActivityName
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:45:13-55
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:44:13-53
+activity#blacksmith.sullivanway.display.TransferMapNameListActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:47:9-50:52
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:50:13-49
+	android:parentActivityName
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:49:13-55
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:48:13-64
+activity#blacksmith.sullivanway.display.TransferMapViewActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:51:9-53:52
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:52:13-60
+activity#blacksmith.sullivanway.display.FavoriteActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:54:9-57:52
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:57:13-49
+	android:parentActivityName
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:56:13-55
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:55:13-53
+activity#blacksmith.sullivanway.display.CongestionActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:58:9-62:57
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:61:13-49
+	android:parentActivityName
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:60:13-67
+	android:theme
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:62:13-54
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:59:13-55
+activity#blacksmith.sullivanway.display.TimeTableActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:63:9-66:52
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:66:13-49
+	android:parentActivityName
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:65:13-66
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:64:13-54
+activity#blacksmith.sullivanway.display.TransStnSettingActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:67:9-72:57
+	android:screenOrientation
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:71:13-49
+	android:label
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:69:13-60
+	android:parentActivityName
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:70:13-55
+	android:theme
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:72:13-54
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:68:13-60
+service#blacksmith.sullivanway.MyFirebaseInstanceIDService
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:74:9-78:19
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:74:18-61
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:75:13-77:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:76:17-80
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:76:25-77
+service#blacksmith.sullivanway.MyFirebaseMessagingService
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:79:9-83:19
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:79:18-60
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:80:13-82:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:81:17-78
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:81:25-75
+receiver#blacksmith.sullivanway.path.AlarmReceiver
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:85:9-56
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:85:19-53
+activity#blacksmith.sullivanway.display.AlarmDialogActivity
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:88:9-89:63
+	android:theme
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:89:13-61
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:88:19-62
+activity#blacksmith.sullivanway.display.FcmDialogActivtiy
+ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:90:9-91:63
+	android:theme
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:91:13-61
+	android:name
+		ADDED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml:90:19-60
+uses-sdk
+INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\sycho\.android\build-cache\0905159d6d719d0803f3740b25481a4bbe4f4a7e\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sycho\.android\build-cache\7ce3f6190d701b11182bef8f056e9d46ad5d55ae\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sycho\.android\build-cache\f4adc0493d2218cd82cfbcef27e9db5e5c51eba1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sycho\.android\build-cache\bfec8eedea534acc1e8e13271063fa8db44580d0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sycho\.android\build-cache\2b24542bed6bfd7c3d427da9775ca19ee2dd01b2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\sycho\.android\build-cache\deee5f563b43165de4d6ddc10169bc09d4cf1b6c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.naver.maps.open:naver-map-api:2.1.2] C:\Users\sycho\.android\build-cache\30fb5658818a54571acea7a24d016f772d88dd99\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\sycho\.android\build-cache\32b506b3886995df4c7c617bf467122685f82368\output\AndroidManifest.xml:17:5-42
+MERGED from [com.github.chrisbanes:PhotoView:2.1.2] C:\Users\sycho\.android\build-cache\835852559e27bf88a0acd67a543d949ecb3d22ab\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sycho\.android\build-cache\748630afb10692229f465f8268ad0e01df66c7fb\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\sycho\.android\build-cache\5b08ac1b368956dfb38bf778b7cf766cc1d5b8f1\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\sycho\.android\build-cache\37d3b35a237b5793523f3f3bae224240b88d6ca6\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\sycho\.android\build-cache\08518f1b7825a5d86e213c29d9df938f3cfcfe62\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\sycho\.android\build-cache\985081a9882a1c914b42d3207bd82bed8a83e728\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\sycho\.android\build-cache\aa0cca4e79f27ff8af4c749f0f0fe100d3474ac0\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sycho\.android\build-cache\b3c9f1c67402516b749439327c158fc417eb25c6\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sycho\.android\build-cache\ac5daa0753bc2157cd4b4995643a265ec9ed9074\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sycho\.android\build-cache\852e107a2edede5cf8bff491e6ba2b26b1037f83\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sycho\.android\build-cache\08f7a550be819621edfa33541436799a92e0658a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sycho\.android\build-cache\f4ee32d8148e08cc92f0b2807a07b577e1c9c593\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sycho\.android\build-cache\08d6d3dfecc68f6dc1b91cf7a12d19d63bf378e1\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\sycho\.android\build-cache\0905159d6d719d0803f3740b25481a4bbe4f4a7e\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sycho\Desktop\Sullivanway\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\sycho\.android\build-cache\0905159d6d719d0803f3740b25481a4bbe4f4a7e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sycho\.android\build-cache\7ce3f6190d701b11182bef8f056e9d46ad5d55ae\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sycho\.android\build-cache\f4adc0493d2218cd82cfbcef27e9db5e5c51eba1\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\sycho\.android\build-cache\bfec8eedea534acc1e8e13271063fa8db44580d0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sycho\.android\build-cache\2b24542bed6bfd7c3d427da9775ca19ee2dd01b2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\sycho\.android\build-cache\deee5f563b43165de4d6ddc10169bc09d4cf1b6c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\sycho\.android\build-cache\b3c9f1c67402516b749439327c158fc417eb25c6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sycho\.android\build-cache\ac5daa0753bc2157cd4b4995643a265ec9ed9074\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sycho\.android\build-cache\852e107a2edede5cf8bff491e6ba2b26b1037f83\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sycho\.android\build-cache\08f7a550be819621edfa33541436799a92e0658a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sycho\.android\build-cache\f4ee32d8148e08cc92f0b2807a07b577e1c9c593\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sycho\.android\build-cache\08d6d3dfecc68f6dc1b91cf7a12d19d63bf378e1\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\sycho\.android\build-cache\0905159d6d719d0803f3740b25481a4bbe4f4a7e\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\sycho\.android\build-cache\0905159d6d719d0803f3740b25481a4bbe4f4a7e\output\AndroidManifest.xml:26:9-47
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\sycho\.android\build-cache\32b506b3886995df4c7c617bf467122685f82368\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\sycho\.android\build-cache\32b506b3886995df4c7c617bf467122685f82368\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\sycho\.android\build-cache\32b506b3886995df4c7c617bf467122685f82368\output\AndroidManifest.xml:23:18-87
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\sycho\.android\build-cache\37d3b35a237b5793523f3f3bae224240b88d6ca6\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\sycho\.android\build-cache\37d3b35a237b5793523f3f3bae224240b88d6ca6\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\sycho\.android\build-cache\37d3b35a237b5793523f3f3bae224240b88d6ca6\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\sycho\.android\build-cache\37d3b35a237b5793523f3f3bae224240b88d6ca6\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\sycho\.android\build-cache\ee1cc7cb63ae6004e0e15ebe079ad82710f01029\output\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\sycho\.android\build-cache\4292e77665d3c6e87be763c4468722c09f2249c1\output\AndroidManifest.xml:44:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\sycho\.android\build-cache\08518f1b7825a5d86e213c29d9df938f3cfcfe62\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\sycho\.android\build-cache\08518f1b7825a5d86e213c29d9df938f3cfcfe62\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\sycho\.android\build-cache\08518f1b7825a5d86e213c29d9df938f3cfcfe62\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\sycho\.android\build-cache\08518f1b7825a5d86e213c29d9df938f3cfcfe62\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\sycho\.android\build-cache\08518f1b7825a5d86e213c29d9df938f3cfcfe62\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\sycho\.android\build-cache\aa0cca4e79f27ff8af4c749f0f0fe100d3474ac0\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\sycho\.android\build-cache\aa0cca4e79f27ff8af4c749f0f0fe100d3474ac0\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\sycho\.android\build-cache\aa0cca4e79f27ff8af4c749f0f0fe100d3474ac0\output\AndroidManifest.xml:20:20-65

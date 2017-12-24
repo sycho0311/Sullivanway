@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="blacksmith.sullivanway.display.TransferMapViewActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/trans_stn_setting_elevation"
+        android:padding="@dimen/trans_stn_setting_padding">
+
+        <TextView
+            android:id="@+id/stnNm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/trans_map_title_size"
+            android:textColor="@color/trans_map_text_color" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/topTint"
+        android:gravity="center"
+        android:textSize="@dimen/trans_map_text_size" />
+
+    <TextView
+        android:id="@+id/walkTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/topTint"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/trans_map_text_size" />
+
+    <LinearLayout
+        android:id="@+id/ButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0"
+        android:orientation="horizontal" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

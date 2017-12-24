@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="blacksmith.sullivanway.display.TransferMapNameListActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/transfer_map_search_frame"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <!-- focusable, focusableInTouchMode로 search의 포커스를 뺏는다 -->
+        <!-- 앱 시작될 때 키보드가 열리는 것을 방지한다 -->
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/transfer_map_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:title="@string/search"
+            app:iconifiedByDefault="false"
+            app:queryHint="@string/search_hint" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ListView
+        android:id="@+id/transfer_map_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/transfer_map_search_frame" />
+
+</RelativeLayout>

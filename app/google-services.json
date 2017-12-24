@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "98323168804",
+    "firebase_url": "https://sullivanway01.firebaseio.com",
+    "project_id": "sullivanway01",
+    "storage_bucket": "sullivanway01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98323168804:android:a33549714e296530",
+        "android_client_info": {
+          "package_name": "blacksmith.sullivanway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98323168804-3dpqn32mfpba0kg2rktatorqke7d34vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPpCBBgb2rWzJaihcKh-wRUTWoQNpCp2c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

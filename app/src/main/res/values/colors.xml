@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e27600</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#c6787878</color>
+
+    <!-- activity_main.xml -->
+    <color name="fabTint">#cc000e</color>
+    <color name="fabBackground">#c6ff9500</color>
+    <color name="list_bg">#ffffff</color>
+    <color name="selectedStnTextViewBg">#ffffff</color>
+
+    <!-- activity_path_info.xml -->
+    <color name="favoriteTint">#faf2dd1d</color>
+
+    <!-- activity_transfer_map_view.xml -->
+    <color name="topTint">#e2e2e2</color>
+    <color name="trans_map_text_color">#ffffff</color>
+
+    <!-- dialog_station_touch.xml -->
+    <color name="stn_touch_icon">#ffd988</color>
+
+    <!-- fragment_map_view -->
+    <color name="trans_map_bg">#c6fdfdfd</color>
+
+    <!-- activity_trans_stn_setting.xml -->
+    <color name="trans_stn_appbar_text">#ffffff</color>
+    <color name="trans_stn_btn_bg">#cfcfcf</color>
+    <color name="stn_info_map_appbar_text">#ffffff</color>
+
+    <!-- activity dialog -->
+    <color name="confirm_text_color">#737373</color>
+</resources>

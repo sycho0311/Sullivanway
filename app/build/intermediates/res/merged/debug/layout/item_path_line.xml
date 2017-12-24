@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/path_info_padding"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/startCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_circle"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/startLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="@string/start_line"
+            android:textStyle="bold"
+            android:textSize="@dimen/path_info_text_size"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/startStnNm" />
+
+        <TextView
+            android:id="@+id/startStnNm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/path_info_padding"
+            android:paddingEnd="@dimen/path_info_padding"
+            android:text="@string/start_stn"
+            android:textStyle="bold"
+            android:textSize="@dimen/path_info_text_size"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/startCircle" />
+
+        <TextView
+            android:id="@+id/direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/path_info_padding"
+            android:paddingStart="@dimen/path_info_padding"
+            android:text="@string/direction"
+            android:textSize="@dimen/path_info_text_size"
+            android:layout_below="@+id/startStnNm"
+            android:layout_toEndOf="@+id/startCircle" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/viaLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_vertical_line" />
+
+        <TextView
+            android:id="@+id/remain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingEnd="@dimen/path_info_padding"
+            android:paddingStart="@dimen/path_info_padding"
+            android:text="@string/remain"
+            android:textSize="@dimen/path_info_text_size" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/endCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_circle" />
+
+        <TextView
+            android:id="@+id/endLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/end_line"
+            android:textStyle="bold"
+            android:textSize="@dimen/path_info_text_size"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/endStnNm" />
+
+        <TextView
+            android:id="@+id/endStnNm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/path_info_padding"
+            android:paddingEnd="@dimen/path_info_padding"
+            android:text="@string/end_stn"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/endCircle" />
+
+        <TextView
+            android:id="@+id/door"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/path_info_padding"
+            android:paddingStart="@dimen/path_info_padding"
+            android:text="@string/door"
+            android:textSize="@dimen/path_info_text_size"
+            android:layout_below="@+id/endStnNm"
+            android:layout_toEndOf="@+id/endCircle" />
+
+    </RelativeLayout>
+</LinearLayout>

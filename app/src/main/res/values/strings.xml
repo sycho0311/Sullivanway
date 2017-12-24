@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Sullivanway</string>
+
+    <!-- activity_main.xml, menu_station_touch.xml -->
+    <string name="search">검색</string>
+    <string name="search_hint">역명 검색</string>
+    <string name="start_station">출발역</string>
+    <string name="end_station">도착역</string>
+    <string name="via_station">경유역</string>
+    <string name="station_info">역정보</string>
+
+    <!-- activity_path_info.xml -->
+    <string name="less_trans">최소환승</string>
+    <string name="min_dist">최단거리</string>
+    <string name="elevator_trans">엘리베이터 이용</string>
+    <string name="wheel_chair">휠체어 이용</string>
+    <string name="reverse">반대로</string>
+    <string name="favorite">나의 경로</string>
+    <string name="total_time">소요시간</string>
+    <string name="trans_cnt">환승횟수</string>
+    <string name="cost">요금</string>
+    <string name="path_info_no_ev_info">엘리베이터 위치정보가 없습니다</string>
+
+    <!-- item_path_line.xml, item_walk_line.xml -->
+    <string name="start_line">탑승호선</string>
+    <string name="end_line">하차호선</string>
+    <string name="start_stn">탑승역</string>
+    <string name="end_stn">하차역</string>
+    <string name="direction">방면</string>
+    <string name="remain">남은 역 개수 (소요시간)</string>
+    <string name="door">내리는 문</string>
+    <string name="remain_walk_time">도보 소요시간</string>
+
+    <!-- activity_favorite.xml, FavoriteActivity.java -->
+    <string name="edit">편집</string>
+    <string name="delete">나의 경로 삭제</string>
+    <string name="no_fv_item">나의경로/최근검색이 없습니다</string>
+
+    <!-- TimeTableActivity.java -->
+    <string name="workDay">평일</string>
+    <string name="saturDay">토</string>
+    <string name="sunDay">일/휴일</string>
+    <string name="no_tt_item">시간표 정보 추가예정 입니다</string>
+
+    <!-- activity_trans_stn_setting.xml -->
+    <string name="trans_limit">환승제한 역 설정</string>
+    <string name="trans_stn_setting_apply">적용</string>
+    <string name="trans_stn_setting_cancel">취소</string>
+    <string name="trans_stn_setting_title">환승제한 역 설정</string>
+    <string name="trans_stn_setting_err_msg">환승제한 역이 너무 많아 갈 수 없는 역이 생겼습니다! 선택역을 줄이거나 취소해주세요</string>
+    <string name="trans_stn_setting_dialog_confirm">확인</string>
+
+    <!-- activity_stn_info.xml -->
+    <string name="stnNm">역이름</string>
+
+    <string name="stn_info_elevator">엘리베이터 정보</string>
+    <string name="num">번호</string>
+    <string name="section">운행구간</string>
+    <string name="place">설치장소</string>
+    <string name="no_ev_item">엘리베이터 정보 추가예정 입니다</string>
+
+    <string name="no_cg_item">혼잡도 정보 추가예정 입니다</string>
+
+    <string name="stn_info_basic">기본정보</string>
+    <string name="stn_info_map">엘리베이터 위치</string>
+    <string name="stn_info_ev_info">가까운 엘리베이터</string>
+    <string name="stn_info_etc">부가정보</string>
+    <string name="stn_info_cngst">시간별 혼잡도</string>
+    <string name="stn_info_timetable">시간표 보기</string>
+    <string name="path_info_alarm_start">알람설정하기</string>
+    <string name="path_info_alarm_stop">알람끄기</string>
+    <string name="alarm">알람</string>
+    <string name="trans_stn_setting_uncheck_all">모두선택해제</string>
+
+    <!-- activity dialog -->
+    <string name="dialog_confirm">확인</string>
+
+</resources>
